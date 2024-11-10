@@ -10,3 +10,16 @@
     Microsoft.EntityFrameworkCOre.Tools
   </code>
 </pre>
+- Create new folder "Data"
+- Create new file name "ApplicationDBContext"
++ Create constructer for ApplicationDBContext
++ Add connecting string in 'appsettings.json'
+<pre>
+  <code>
+    "ConnectionStrings": {
+      "DefaultConnection": "Data Source={SERVER NAME};Initial   
+      Catalog={DB NAME};Integrated Security=True;Trust Server
+      Certificate=True"
+    },
+  </code>
+</pre>
