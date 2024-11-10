@@ -3,10 +3,11 @@
 - Download Library
 <pre>
   <code>
+    dotnet add package   
     Microsoft.AspNetCore.Identity.EntityFrameworkCore
-    Microsoft.EntityFrameworkCore.InMemory    
-    Microsoft.EntityFrameworkCore.SqlServer
-    Microsoft.EntityFrameworkCore.Tools
+    dotnet add package Microsoft.EntityFrameworkCore.InMemory
+    dotnet add package Microsoft.EntityFrameworkCore.SqlServer
+    dotnet add package Microsoft.EntityFrameworkCore.Tools
   </code>
 </pre>
 - Create new folder "Data"
