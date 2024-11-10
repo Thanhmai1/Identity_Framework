@@ -23,3 +23,13 @@
     },
   </code>
 </pre>
+- Open 'Program.cs':
+<pre>
+  <code>
+    builder.Services.AddDbContext<ApplicationDBContext>(options =>
+            {
+                var connectionsString = builder.Configuration.GetConnectionString("DefaultConnection");
+                options.UseSqlServer(connectionsString);
+            });
+  </code>
+</pre>
