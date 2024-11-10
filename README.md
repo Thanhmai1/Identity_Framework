@@ -3,8 +3,7 @@
 - Download Library
 <pre>
   <code>
-    dotnet add package   
-    Microsoft.AspNetCore.Identity.EntityFrameworkCore
+    dotnet add package Microsoft.AspNetCore.Identity.EntityFrameworkCore
     dotnet add package Microsoft.EntityFrameworkCore.InMemory
     dotnet add package Microsoft.EntityFrameworkCore.SqlServer
     dotnet add package Microsoft.EntityFrameworkCore.Tools
