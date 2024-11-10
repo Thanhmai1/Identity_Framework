@@ -6,7 +6,7 @@
     Microsoft.AspNetCore.Identity.EntityFrameworkCore
     Microsoft.EntityFrameworkCore.InMemory    
     Microsoft.EntityFrameworkCore.SqlServer
-    Microsoft.EntityFrameworkCOre.Tools
+    Microsoft.EntityFrameworkCore.Tools
   </code>
 </pre>
 - Create new folder "Data"
