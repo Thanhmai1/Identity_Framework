@@ -33,3 +33,10 @@
             });
   </code>
 </pre>
+- Open terminal
+<pre>
+  <code>
+    Add-Migration FirstMigration
+    Updata-Database
+  </code>
+</pre>
