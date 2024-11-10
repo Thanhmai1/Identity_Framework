@@ -4,7 +4,8 @@
 <pre>
   <code>
     Microsoft.AspNetCore.Identity.EntityFrameworkCore
-    Microsoft.EntityFrameworkCore.InMemory
+    Microsoft.EntityFrameworkCore.InMemory // If you use Memory
+    //If you use SQL Server
     Microsoft.EntityFrameworkCore.SqlServer
     Microsoft.EntityFrameworkCOre.Tools
   </code>
